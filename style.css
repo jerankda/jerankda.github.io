@@ -1,5 +1,4 @@
 /* global */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 .grid-2 {
     display: grid;
@@ -14,8 +13,7 @@ body {
     color: #7A7C80;
 }
 
-h2,
-.white {
+h2, .white {
     color: #fff;
 }
 
@@ -24,9 +22,7 @@ a {
     text-decoration: none;
 }
 
-
 /* section 1 */
-
 .section-1 {
     padding-top: 40vh;
     text-align: center;
@@ -48,9 +44,7 @@ a {
     padding: 10px;
 }
 
-
 /* section 2 */
-
 .section-2 {
     padding-top: 10vh;
     width: 70%;
@@ -69,26 +63,24 @@ a {
 
 .section-2 a {
     display: block;
-    padding: 5px;
+    padding: 10px;
     font-size: 1.2rem;
-    padding-left: 0;
-    width: 100px;
+    background-color: #292C31; /* New background color */
+    border: 1px solid #fff; /* New border */
+    margin-bottom: 5px; /* Space between links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
 }
 
-
-/* animations / utilities */
-
+/* Animations / Utilities */
 .section-2 a:hover {
-    font-size: 1.3rem;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.2s;
+    background-color: #1E90FF; /* Brighter background on hover */
+    color: #ffffff; /* White text on hover */
 }
 
 .section-1 a:hover {
     color: #fff;
     cursor: pointer;
-    transition: 0.3s;
+    transition: color 0.3s;
 }
 
 .white:hover {
@@ -96,9 +88,7 @@ a {
     padding-left: 10px;
 }
 
-
-/* media queres */
-
+/* Media Queries */
 @media(max-width:780px) {
     .grid-2 {
         grid-template-columns: 1fr;
