@@ -65,9 +65,6 @@ a {
     display: block;
     padding: 10px;
     font-size: 1.2rem;
-    background-color: #292C31; /* New background color */
-    border: 1px solid #fff; /* New border */
-    margin-bottom: 5px; /* Space between links */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
 }
 
